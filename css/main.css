@@ -31,6 +31,12 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 1024px) {
+    #header {
+    background-attachment: initial !important;
+    }
+}
+
 .height-90 {
     min-height: calc(100vh - 94px);
 }
