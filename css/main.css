@@ -1,0 +1,144 @@
+.info {
+    background: white;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    /*background: url(../img/wok.jpeg);center/cover fixed no-repeat*/
+}
+
+.primary-color {
+    color: black;
+}
+
+.info a {
+    transition: color 1s ease-in-out;
+}
+.info a:hover {
+    color: lightgray;
+}
+
+/*header*/
+#header {
+    min-height: calc(100vh - 94px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rice.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    position: relative;
+}
+
+.height-90 {
+    min-height: calc(100vh - 94px);
+}
+
+.banner h1 {
+    /*border-top: 6px dotted;*/
+    /*border-bottom: 6px dotted;*/
+    animation: fromLeft;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.main-btn {
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+}
+
+.main-btn:hover {
+    color: black;
+    border: 2px solid white;
+    background: white;
+}
+
+@keyframes fromRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.view-btn {
+    animation: fromRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.accordion {
+    animation: fromRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.card, .card-header {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.btn-link {
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-link:hover {
+    color: crimson;
+}
+
+.height-60 {
+    min-height: 40vh;
+}
+
+/*footer*/
+#back-to-top {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+}
+
+/*.header-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+} */
+
