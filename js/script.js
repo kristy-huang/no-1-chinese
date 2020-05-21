@@ -7,9 +7,11 @@ $(document).ready(function(){
   //sticky navbar
   $(window).scroll(function(){
     let position = $(this).scrollTop();
-    if (position >= 55.8) {
+    if (position >= 33) {
+      $('.navbar').addClass('navbar-background');
       $('.navbar').addClass('fixed-top');
     } else {
+      $('.navbar').removeClass('navbar-background');
       $('.navbar').removeClass('fixed-top');
     }
   });
