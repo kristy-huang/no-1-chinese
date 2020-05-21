@@ -1,10 +1,10 @@
 .info {
-    background: white;
+    background: whitesmoke;
 }
 
 body {
     font-family: 'Bebas Neue', cursive;
-    color: white;
+    color: whitesmoke;
     /*background: url(../img/wok.jpeg);center/cover fixed no-repeat*/
 }
 
@@ -19,9 +19,60 @@ body {
     color: lightgray;
 }
 
+/*nav bar*/
+.navbar {
+    background: whitesmoke;
+    transition: all 1s ease;
+}
+
+.navbar-brand {
+    color: black;
+    letter-spacing: 5px;
+}
+
+.navbar-brand:hover {
+    color: crimson;
+    transition: all 1s ease;
+}
+
+.nav-link {
+    color: grey;
+    text-decoration: none;
+    transition: all 1s ease;
+    letter-spacing: 3px;
+}
+
+.nav-link:hover {
+    color: crimson;
+}
+
+.toggler-btn {
+    transition: all 1s ease;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: black;
+    transition: all 0.5s ease;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
 /*header*/
 #header {
-    min-height: calc(100vh - 94px);
+    min-height: calc(100vh - 42px);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rice.jpg);
     background-position: center;
     background-size: cover;
