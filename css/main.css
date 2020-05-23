@@ -99,7 +99,7 @@ body {
     position: relative;
 }
 
-/*@media only screen and (max-width: 798px) {
+@media only screen and (max-width: 798px) {
     #header {
         min-height: calc(100vh - 75px);
         background: url(../img/rice-mobile.jpg);
@@ -110,7 +110,7 @@ body {
         background-blend-mode: lighten;
         position: relative;
     }
-}*/
+}
 
 .height-90 {
     min-height: calc(100vh - 94px);
@@ -127,11 +127,11 @@ body {
 
 @keyframes fromLeft {
     0% {
-        transform: translateX(-16px);
+        transform: translateX(-100px);
         opacity: 0;
     }
     50% {
-        transform: translateX(10px);
+        transform: translateX(30px);
     }
     100% {
         transform: translateX(0);
@@ -154,11 +154,11 @@ body {
 
 @keyframes fromRight {
     0% {
-        transform: translateX(16px);
+        transform: translateX(100px);
         opacity: 0;
     }
     50% {
-        transform: translateX(-10px);
+        transform: translateX(-30px);
     }
     100% {
         transform: translateX(0);
