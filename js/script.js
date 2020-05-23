@@ -7,7 +7,7 @@ $(document).ready(function(){
   //sticky navbar
   $(window).scroll(function(){
     let position = $(this).scrollTop();
-    if (position >= 2) {
+    if (position >= 10) {
       $('.navbar').addClass('navbar-background');
       $('.navbar').addClass('fixed-top');
     } else {
