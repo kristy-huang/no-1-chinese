@@ -99,7 +99,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     #header {
         min-height: calc(100vh - 75px);
         /*background: url(../img/rice-mobile.jpg);*/
