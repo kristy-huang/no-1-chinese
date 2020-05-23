@@ -99,7 +99,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 798px) {
     #header {
         min-height: calc(100vh - 75px);
         background: url(../img/rice-mobile.jpg);
@@ -110,7 +110,7 @@ body {
         background-blend-mode: lighten;
         position: relative;
     }
-}
+}*/
 
 .height-90 {
     min-height: calc(100vh - 94px);
