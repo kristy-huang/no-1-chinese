@@ -116,7 +116,7 @@ body {
     min-height: calc(100vh - 94px);
 }
 
-.banner h3 {
+.banner h1 {
     animation: fromLeft;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -127,11 +127,11 @@ body {
 
 @keyframes fromLeft {
     0% {
-        transform: translateX(-100px);
+        transform: translateX(-16px);
         opacity: 0;
     }
     50% {
-        transform: translateX(30px);
+        transform: translateX(10px);
     }
     100% {
         transform: translateX(0);
@@ -154,11 +154,11 @@ body {
 
 @keyframes fromRight {
     0% {
-        transform: translateX(100px);
+        transform: translateX(16px);
         opacity: 0;
     }
     50% {
-        transform: translateX(-30px);
+        transform: translateX(-10px);
     }
     100% {
         transform: translateX(0);
