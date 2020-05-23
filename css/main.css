@@ -116,7 +116,7 @@ body {
     min-height: calc(100vh - 94px);
 }
 
-.banner h1 {
+.banner h3 {
     animation: fromLeft;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -166,6 +166,14 @@ body {
     }
 }
 
+.banner h6 {
+    animation: fromRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
 .view-btn {
     animation: fromRight;
     animation-duration: 3s;
@@ -185,6 +193,13 @@ body {
 .card, .card-header {
     background: rgba(255, 255, 255, 0.8);
     color: black;
+}
+
+.card-body {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: lighter;
 }
 
 .btn-link {
