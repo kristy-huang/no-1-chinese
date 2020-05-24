@@ -1,13 +1,18 @@
 body {
     font-family: 'Bebas Neue', cursive;
     color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 .primary-color {
     color: black;
-    letter-spacing: 2px;
 }
 
+.sans {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*footer*/
 .info {
     background: rgb(253, 190, 108);
 }
@@ -127,11 +132,11 @@ body {
 
 @keyframes fromLeft {
     0% {
-        transform: translateX(0px);
+        transform: translateX(-15px);
         opacity: 0;
     }
     50% {
-        transform: translateX(0px);
+        transform: translateX(10px);
     }
     100% {
         transform: translateX(0);
@@ -154,11 +159,11 @@ body {
 
 @keyframes fromRight {
     0% {
-        transform: translateX(0px);
+        transform: translateX(15px);
         opacity: 0;
     }
     50% {
-        transform: translateX(0px);
+        transform: translateX(-10px);
     }
     100% {
         transform: translateX(0);
@@ -182,6 +187,18 @@ body {
     animation-fill-mode: forwards;
 }
 
+/*arrow*/
+/*.header-link {
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    right: 50%;
+    color: white;
+    border-radius: 10px;
+}*/
+
+/*menu*/
 .accordion {
     animation: fromRight;
     animation-duration: 3s;
@@ -222,14 +239,11 @@ body {
     right: 10px;
 }
 
+/*covid section*/
+#covid {
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
-
-/*.header-link{
-    display: inline-block;
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    background: white;
-    border-radius: 10px;
-} */
 
