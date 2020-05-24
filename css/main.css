@@ -94,7 +94,7 @@ body {
 
 /*header*/
 #header {
-    min-height: calc(100vh - 42px);
+    min-height: calc(100vh - 70px);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/rice.jpg);
     background-position: center;
     background-size: cover;
@@ -106,7 +106,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     #header {
-        min-height: calc(100vh - 50px);
+        min-height: calc(100vh - 70px);
         background: url(../img/rice-mobile.jpg);
         background-position: center;
         background-size: cover;
