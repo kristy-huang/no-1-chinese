@@ -17,14 +17,14 @@ $(document).ready(function(){
   });
 
   //smooth scroll
-  /*$('.nav-item a, #back-to-top').click(function(link) {
+  $('.header-link').click(function(link) {
     link.preventDefault();
     let target = $(this).attr('href');
 
-    $('html, body').stop.animate({
-      scrollTop: $(target).offset().top - 25
+    $('html, body').stop().animate({
+      scrollTop: $(target).offset().top - 110
     }, 3000);
-  })*/
+  })
   
     //ripples
     /*$("header, .info").ripples({

@@ -118,7 +118,7 @@ body {
 }
 
 .height-90 {
-    min-height: calc(100vh - 94px);
+    min-height: calc(100vh - 120px);
 }
 
 .banner h1 {
@@ -188,16 +188,34 @@ body {
 }
 
 /*arrow*/
-/*.header-link {
+.header-link {
     display: inline-block;
     position: absolute;
-    bottom: 5%;
-    left: 50%;
-    right: 50%;
-    color: white;
+    background: rgb(253, 190, 108);
     border-radius: 10px;
-}*/
+    transition: all 1s ease;
+    animation: fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
+.header-link:hover {
+    color: crimson;
+    border: 2px solid rgb(194, 146, 83);
+    background: rgb(194, 146, 83);;
+}
+
+@keyframes fromBottom {
+    0% {
+        transform: translateY(-8px);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}
 /*menu*/
 .accordion {
     animation: fromRight;
