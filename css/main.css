@@ -196,7 +196,7 @@ body {
 
 /*arrow*/
 .header-link {
-    display: inline-block;
+    /*display: inline-block;*/
     position: absolute;
     background: rgb(253, 190, 108);
     border-radius: 10px;
