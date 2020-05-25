@@ -53,7 +53,7 @@ body {
 }
 
 .navbar-brand:hover {
-    color: crimson;
+    color: black;
     transition: all 1s ease;
 }
 
