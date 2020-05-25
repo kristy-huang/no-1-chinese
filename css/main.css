@@ -178,7 +178,7 @@ body {
     }
 }
 
-.banner h6 {
+.banner h3 {
     animation: fromRight;
     animation-duration: 3s;
     animation-delay: 1s;
