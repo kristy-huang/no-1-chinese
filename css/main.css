@@ -200,6 +200,7 @@ body {
   position: absolute;
   background: rgb(253, 190, 108);
   border-radius: 10px;
+  margin-top: 50px;
   transition: all 1s ease;
   animation: fromBottom;
   animation-duration: 4s;
